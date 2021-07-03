@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>商品検索</title>
+</head>
+<body>
+<h1>商品検索</h1>
+検索方法：
+<form action="ShohinQueryServlet" method="get">
+<input type="radio" value="shohin" name="radio" checked="checked">商品名
+<input type="radio" value="price" name="radio">価格
+<br><br>
+キーワード：(商品名の一部、価格を入力してください)<br>
+<input type="text" name="keyword" size="20"><br><br>
+<input type="submit" value="送信">
+<input type="reset" value="リセット">
+</form>
+</body>
+</html>
